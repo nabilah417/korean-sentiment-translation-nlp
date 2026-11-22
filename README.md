@@ -65,3 +65,22 @@ the completed annotation file.
 
 The experiment was run in Google Colab. Fresh-machine
 reproduction has not yet been independently verified.
+
+## Manual Annotation Data
+
+The `annotations/` directory contains 100 manually
+annotated Korean movie reviews and the corresponding
+sampling information.
+
+The annotations cover:
+- Negation
+- Slang and idiomatic expressions
+- Sarcasm and irony
+
+The sample was stratified by prediction outcome,
+with 25 reviews selected from each of four groups.
+
+The annotation files can be used with the analysis
+code in the Colab notebook to reproduce the
+linguistic subgroup results.
+
